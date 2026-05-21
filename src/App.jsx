@@ -675,15 +675,15 @@ export default function App() {
           </div>
 
           <div style={{ display:"flex", flexDirection:"column", gap:10 }}>
-            <ModeCard title="Coach Mode"    desc="Log events while coding film — tap player, tap event." accent={ORANGE}  icon="🎥" onClick={()=>setMode("coach")} />
+            <ModeCard title="Code Game"    desc="Log events while coding film — tap player, tap event." accent={ORANGE}  icon="🎥" onClick={()=>setMode("coach")} />
             <ModeCard title="Team Stats"    desc="Per-player breakdowns, quarter splits, and metrics."   accent="#A78BFA" icon="📊" onClick={()=>setMode("stats")} badge={gameCount>0?`${gameCount} games`:null} />
             <ModeCard title="Manage Roster" desc="Add players, update numbers and minutes played."       accent="#FCD34D" icon="👥" onClick={()=>setMode("roster")} badge={`${players.length} players`} />
           </div>
 
           <div style={{ marginTop:28, padding:"12px 16px", background:NAVY2, borderRadius:10, border:`1px solid ${NAVYBORDER}` }}>
             <div style={{ color:MUTED, fontSize:11, textAlign:"center", lineHeight:1.8 }}>
-              🌐 Live data — all teammates see the same stats in real time.<br/>
-              Share this URL with the team to view game breakdowns.
+              🫪 Sophie is smart, but she makes mistakes<br/>
+              Take any discrepencies up with her and Claude.
             </div>
           </div>
         </div>
